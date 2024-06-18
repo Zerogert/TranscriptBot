@@ -2,7 +2,7 @@ import logging
 import config
 import transcript_service
 
-from telegram import ForceReply, Update
+from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 # Enable logging
